@@ -1,4 +1,15 @@
 @import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
-    background: var(--color-primary);
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr) 3fr;
+    grid-template-rows: repeat(3, 1fr) .5fr;
+
+
 }
