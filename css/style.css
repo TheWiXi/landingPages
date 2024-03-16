@@ -1,4 +1,105 @@
-@import url(variables.css);
+@import url(variable.css);
 body{
-    background: var(--color-primary);
+    background-color: rgb(182, 178, 178);
+}
+.container{
+    width: 1440px;
+    height: 994px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url(../storage/img/fondo.svg);
+    background-repeat: no-repeat;
+}
+.texto{
+    width: 581px;
+    height: 494px;
+    position: absolute;
+    top: 155px;
+    left: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    width: 591px;
+    height: 172px;
+}
+.titulo h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    font-family: "Lato";
+    margin: 0;
+}
+.parrafo{
+    width: 580px;
+    height: 160px;
+}
+.parrafo h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 400;
+    color: white;
+    font-family: "Lato";
+}
+.boton button{
+    width: 222px;
+    height: 66px;
+    border-radius: 30px;
+    border-color: transparent;
+    font-size: 23px;
+    font-family: "Lato";
+
+}
+.imagenes{
+    width: 1314px;
+    height: 168px;
+    display: flex;
+    flex-direction: row;  
+    position: absolute;
+    bottom: 40px;
+    left: 260px;
+    border-radius: 20px;
+
+}
+.imagen_1{
+    width: 219px;
+    height: 168px;
+    margin: 0;
+    background-image: url(../storage/img/stays.svg);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.imagen_2{
+    width: 219px;
+    height: 168px;
+    margin: 0;
+    background-image: url(../storage/img/flights.png);
+}
+.imagen_3{
+    width: 219px;
+    height: 168px;
+    margin: 0;
+    background-image: url(../storage/img/cruises.svg);
+}
+.imagen_4{
+    width: 219px;
+    height: 168px;
+    margin: 0;
+    background-image: url(../storage/img/cars.svg);
+}
+.imagen_5{
+    width: 219px;
+    height: 168px;
+    margin: 0;
+    background-image: url(../storage/img/fun.svg);
+}
+.imagen_6{
+    width: 219px;
+    height: 168px;
+    margin: 0;
+    background-image: url(../storage/img/restaurants.svg);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
